@@ -619,7 +619,7 @@ header .navbar ul li a:hover{
     }
 
  }
- @media(min-width:400px) and (max-width:550px)
+ @media (max-width:550px)
  {
     .portfolio .box-container .box {
         height: 40rem !important;
@@ -627,6 +627,6 @@ header .navbar ul li a:hover{
         border-radius: 1rem;
         margin: 2rem;
         overflow: hidden;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
  }
