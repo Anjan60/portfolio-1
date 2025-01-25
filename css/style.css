@@ -622,6 +622,7 @@ header .navbar ul li a:hover{
  @media(max-width:480px)
  {
     .portfolio .box-container .box img {
-        width: 100%;
+        width: 100% !important;
+        object-fit: cover !important;
     }
  }
